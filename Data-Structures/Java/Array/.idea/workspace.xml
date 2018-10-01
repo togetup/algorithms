@@ -12,21 +12,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Array.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+              <folding>
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Array.java" />
       </list>
     </option>
   </component>
@@ -124,12 +151,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538404939261</updated>
-      <workItem from="1538404944128" duration="727000" />
+      <workItem from="1538404944128" duration="2220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="727000" />
+    <option name="totallyTimeSpent" value="2220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
@@ -149,7 +176,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983388" />
       <window_info anchor="bottom" id="Statistic" />
       <window_info anchor="bottom" id="Tail" />
       <window_info anchor="right" id="Database" />
@@ -176,8 +203,25 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding>
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
