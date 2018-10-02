@@ -1,4 +1,5 @@
 /**
+ * @author zhaojl
  * @date 2018/10/1
  */
 public class Array {
@@ -51,4 +52,39 @@ public class Array {
         return size == 0;
     }
 
+    /**
+     * 向所有元素后添加一个元素
+     * @param e
+     */
+    public void addLast(int e){
+        if (size == data.length){
+            throw new IllegalArgumentException("AddLast failed. Array is full");
+        }
+
+        data[size] = e;
+        size++;
+    }
+
+
+    /**
+     * 在第index个位置插入一个新元素e
+     * @param index
+     * @param e
+     */
+    public void add(int index, int e){
+        if (size == data.length){
+            throw new IllegalArgumentException("Add failed. Array is full");
+        }
+
+        if (index < 0 || index > size){
+            throw new IllegalArgumentException("Add failed. Require index >= 0 and index <= size");
+        }
+
+        for (int i = size-1; i >= index; i--) {
+            data[i + 1] = data[i];
+        }
+
+        data[index] = e;
+        size++;
+    }
 }
