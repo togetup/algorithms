@@ -57,12 +57,16 @@ public class Array {
      * @param e
      */
     public void addLast(int e){
-        if (size == data.length){
-            throw new IllegalArgumentException("AddLast failed. Array is full");
-        }
+        add(size, e);
+    }
 
-        data[size] = e;
-        size++;
+
+    /**
+     * 在所有元素前添加一个新元素
+     * @param e
+     */
+    public void addFirst(int e){
+        add(0, e);
     }
 
 
