@@ -93,6 +93,34 @@ public class Array {
     }
 
 
+    /**
+     * 获取 index 索引位置的元素
+     * @param index
+     * @return
+     */
+    public int get(int index){
+        if (index < 0 || index >= size){
+            throw new IllegalArgumentException("Get failed. Index is illegal");
+        }
+
+        return data[index];
+    }
+
+
+    /**
+     * 修改 index 索引位置的元素为e
+     * @param index
+     * @param e
+     */
+    public void set(int index, int e){
+        if (index < 0 || index >= size){
+            throw new IllegalArgumentException("Get failed. Index is illegal");
+        }
+
+        data[index] = e;
+    }
+
+
     @Override
     public String toString(){
         StringBuilder res = new StringBuilder();
@@ -108,6 +136,5 @@ public class Array {
 
         return res.toString();
     }
-
-
+    
 }

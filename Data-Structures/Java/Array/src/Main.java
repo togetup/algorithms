@@ -7,5 +7,11 @@ public class Main {
             arr.addLast(i);
         }
         System.out.println(arr);
+
+        arr.add(1, 100);
+        System.out.println(arr);
+
+        arr.addFirst(-1);
+        System.out.println(arr);
     }
 }
